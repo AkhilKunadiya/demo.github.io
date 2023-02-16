@@ -1,0 +1,197 @@
+.fullscreen_bg {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.fullscreen_bg_video {
+  position: absolute;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+#display-profile {
+  margin-top: 45px;
+  background-color: rgba(5, 3, 3, 0.717);
+  border-radius: 6%;
+  box-shadow: 0px 0px 40px rgb(71, 98, 232);
+  position: relative;
+}
+
+.container-img {
+  /* align-content: center; */
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.profileImage {
+  margin-top: 10px;
+  /* margin-bottom: 10px; */
+  height: 260px;
+  width: 200px;
+  border-radius: 10%;
+}
+
+#profileInfo {
+  font-size: 16px;
+  display: block;
+  text-align: center;
+  justify-content: space-between;
+  position: relative;
+  color: white;
+}
+/* .parallax {
+  background-image: url("src/img/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+#TechnicalSummary{
+	                height:auto;
+	                padding-bottom:40px;
+	                color:#fff;
+	                background-attachment:fixed;
+	                background-image:url('src/img/1.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:20px;
+	                line-height:1.5;
+}
+#TechnicalSummaryRow{
+	                padding-top:7%;
+}
+#TechnicalSummary h1{
+	                font-family:'Times New Roman', Times, serif;
+                  text-align: center;
+}
+#Qualifications{
+                  height:auto;
+	                background-attachment:fixed;
+	                background-image:url('src/img/9.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:20px;
+	                padding-bottom:40px;
+	                color:#000000;
+}
+#Qualification-profile2{
+  margin-top: 10px;
+  background-color:rgba(255, 253, 253, 0.856);
+  border-radius: 6%;
+  position: relative;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  box-shadow: 0px 0px 10px rgb(249, 76, 76);
+
+}
+.qalification-table{
+  margin-top: auto;
+}
+#Skills{
+                  height: auto;
+                  background-attachment:fixed;
+	                background-image:url('src/img/7.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:20px;
+	                padding-bottom:40px;
+	                color:#000000;
+}
+#Skillsprofile{
+  margin-top: 10px;
+  background-color: rgba(255, 253, 253, 0.856);
+  border-radius: 6%;
+  position: relative;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  box-shadow: 0px 0px 10px rgb(236, 230, 56);
+}
+#Portfolio
+{
+    height:auto;
+    padding-bottom:40px;
+    color:#fff;
+    font-size:20px;
+    
+}
+
+#PortfolioRow h1
+{
+    color:#000000;
+    font-family:Monotype Corsiva;
+}  
+
+#Portfolio div.col-lg-3
+{
+    margin-bottom:20px;
+}  
+.ContainerImage
+{
+      position: relative;
+      width:100%;
+  }
+  .image 
+  {
+    display: block;
+    width: 100%;
+    height: 200px;
+transition:1s;
+  }
+  .overlay 
+  {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right:0;
+    background:rgba(0,0,0,0.7);
+    overflow: hidden;
+    height: 100%;
+    width:100%;
+    opacity:0;
+    transition:0.5s;
+  }
+  .ContainerImage:hover .overlay 
+  {
+    opacity:1;
+  }
+.ContainerImage:hover .image 
+  {
+    transform:rotate(360deg);
+  }
+  #Project{
+    height: auto;
+    background-attachment:fixed;
+    background-image:url('src/img/octavian-dan-b21Ty33CqVs-unsplash.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-size:20px;
+    padding-bottom:40px;
+    color:#000000;
+  }
+#Form{
+  height: auto;
+  background-attachment:fixed;
+  background-image:url('src/img/4.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  font-size:20px;
+  padding-bottom:40px;
+  color:#000000;
+}
+#formprofile{
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 6%;
+  position: relative;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  box-shadow: 0px 0px 10px rgb(47, 224, 121);
+}
